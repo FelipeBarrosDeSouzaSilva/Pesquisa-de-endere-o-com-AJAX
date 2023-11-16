@@ -41,7 +41,7 @@
 			<script>
 				function getEndereco(cep){
 					
-					let url = "http://viacep.com.br/ws/" + cep + "/json/unicode/";
+					let url = "http://viacep.com.br/ws/" + cep + "/json/";
 					
 					
 					let xmlHttp = new XMLHttpRequest();
